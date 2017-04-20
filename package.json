@@ -1,0 +1,35 @@
+{
+  "name": "kenoteRN",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "http-services": "^1.2.1",
+    "kenote-react-native-design": "^1.0.3",
+    "lodash": "^4.17.4",
+    "native-base": "2.1.0",
+    "react": "15.4.2",
+    "react-native": "0.42.3",
+    "react-native-animatable": "^1.1.1",
+    "react-native-app-intro": "^1.1.5",
+    "react-native-modal": "^2.3.2",
+    "react-native-router-flux": "^3.38.0",
+    "react-redux": "^5.0.4",
+    "redux": "^3.6.0",
+    "redux-logger": "^3.0.1",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-jest": "19.0.0",
+    "babel-preset-react-native": "1.9.1",
+    "jest": "19.0.2",
+    "react-test-renderer": "15.4.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
